@@ -179,11 +179,11 @@ wildlife.head()
 
 For this analysis we were interested in the export of species that were exported with the purpose of reintroduction into the wild. In order to get an overview of this we searched for the countries that exported the most with this purpose. We used an dictionary to store this information. Since only either the import or export quantity were specified per data point we first checked if the export quantity was specified and if not we used the import quantity. For each country we summed these quantities and then used matplotlib to plot a bar plot of the total export per country with the purpose of reintroduction into the wild.
 
-![Fig biggest exporters](../Figures/biggest_exporters.png)
+![Fig biggest exporters](Figures/biggest_exporters.png)
 
 After this we were curious about the export relationship between countries. For this we used the data in a similar way compared to the former analysis but instead of summing all export quantities we stored them separate to graph every interaction in the export network. In the following graph each node represents a country and every edge represents an export with the value indicating the export quantity.
 
-![Fig export network](../Figures/export_network.png)
+![Fig export network](Figures/export_network.png)
 
 # Dependencies
 
